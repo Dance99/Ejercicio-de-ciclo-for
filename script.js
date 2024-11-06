@@ -9,8 +9,8 @@ for (let i = 1; i <= 5; i++) {
     // Solicitamos al usuario ingresar un número
     let numero = parseInt(prompt(Ingrese el valor ${i} de 5:));
 
-        // Si el número ingresado es mayor a 0, aumenta la variable positivos en 1.
-Si el número es menor a 0, aumenta negativos en 1.
+ // Si el número ingresado es mayor a 0, aumenta la variable positivos en 1.
+//Si el número es menor a 0, aumenta negativos en 1.
         if (numero > 0) {
             positivos++;
         } else if (numero < 0) {
