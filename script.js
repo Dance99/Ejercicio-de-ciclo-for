@@ -7,7 +7,7 @@ let multiplosDe15 = 0;
 // se solicita un número al usuario mediante prompt. parseInt convierte el valor ingresado en un número entero.
 for (let i = 1; i <= 5; i++) {
     // Solicitamos al usuario ingresar un número
-    let numero = parseInt(prompt(Ingrese el valor ${i} de 5:));
+    let numero = parseInt(prompt(`Ingrese el valor ${i} de 5:`));
 
  // Si el número ingresado es mayor a 0, aumenta la variable positivos en 1.
 //Si el número es menor a 0, aumenta negativos en 1.
